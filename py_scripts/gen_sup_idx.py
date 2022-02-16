@@ -103,8 +103,8 @@ def parse_ht(html_path: str):
     # 更新[TOC]为真正的导航
     try:
         target_html = soup.find('div', id="anchor-navigation-ex-navbar").next.next
-        soup.find('p', text='[TOC]').contents = target_html
-        soup.find('p', text='[toc]').contents = target_html
+        toc = soup.find('p', text='[toc]') if soup.find('p', text='[toc]') else soup.find('p', text='[TOC]')
+        toc.contents = target_html
     except:
         pass
     
