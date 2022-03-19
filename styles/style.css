@@ -1140,7 +1140,7 @@ body {
 /*如要轉出codepen外的網站，請附上作者名稱，以及這裡的網址，感謝配合 :) */
 
 body {
-  background: #ade3e3;
+  background: #62a2a0f5;
   margin: 0;
   /*背景填滿無邊界*/
   overflow: hidden;
@@ -1180,7 +1180,7 @@ body {
 /*地層*/
 .ground {
   position: absolute;
-  background: #a2e6cf;
+  background: #d8eaec99;;
   width: 100%;
   height: 180px;
   bottom: 0;
@@ -1227,14 +1227,14 @@ body {
   box-shadow:-10px 0px 0px #e3f7f0,-200px 0px 0px #c7ede0,-205px 0px 0px #c7ede0,-210px 0px 0px #c7ede0,-215px 0px 0px #c7ede0,-220px 0px 0px #c7ede0,-225px 0px 0px #c7ede0,-230px 0px 0px #c7ede0,-240px 0px 0px #e3f7f0,-250px 0px 0px #c7ede0,-255px 0px 0px #c7ede0,-260px 0px 0px #c7ede0,-270px 0px 0px #e3f7f0,-120px 10px 0px #e3f7f0,-130px 10px 0px #ffffff,-135px 10px 0px #ffffff,-140px 10px 0px #ffffff,-145px 10px 0px #ffffff,-150px 10px 0px #ffffff,-350px 10px 0px #e3f7f0,-360px 10px 0px #ffffff,-365px 10px 0px #ffffff,-370px 10px 0px #ffffff,-375px 10px 0px #ffffff,-380px 10px 0px #ffffff,-385px 10px 0px #ffffff,-390px 10px 0px #ffffff,-395px 10px 0px #ffffff,-400px 10px 0px #ffffff,-405px 10px 0px #ffffff,-410px 10px 0px #ffffff
 }
 
-/*冰面陰影線*/
-.ice_shadow{
-  position:absolute;
-  background: #84bba8;
-  width: 100%;
-  height: 10px;
-  bottom:-10px;
-}
+#/*冰面陰影線*/
+#.ice_shadow{
+#  position:absolute;
+#  background: #84bba8;
+#  width: 100%;
+#  height: 10px;
+#  bottom:-10px;
+#}
 
 /*冰面陰影第一層-仿像素畫效果*/
 .ice_shadow:before {
@@ -1260,40 +1260,40 @@ body {
   box-shadow:10px 0px 0px #a2d1c1,-20px 0px 0px #84bba8,-140px 0px 0px #84bba8,-160px 0px 0px #84bba8,-170px 0px 0px #84bba8,-180px 0px 0px #84bba8,-190px 0px 0px #84bba8;
 }
 
-/*冰層陰影-底部*/
-.g1 {
-  position: absolute;
-  background: #72ccad;
-  width: 100%;
-  height: 20px;
-  bottom: 0;
-}
+#/*冰層陰影-底部*/
+#.g1 {
+#  position: absolute;
+#  background: #72ccad;
+#  width: 100%;
+#  height: 20px;
+#  bottom: 0;
+#}
 
 /*冰層陰影-仿像素畫效果*/
-.g2 {
-  position: absolute;
-  background: #72ccad;
-  width: 50px;
-  height: 140px;
-  right: -30px;
-  bottom: 0;
-  box-shadow: -10px 50px 0px #72ccad, -20px 70px 0px #72ccad,
-    -30px 80px 0px #72ccad, -40px 90px 0px #72ccad, -60px 100px 0px #72ccad,
-    -110px 110px 0px #72ccad;
-  /*用陰影仿出一格一格的效果*/
-}
+#.g2 {
+#  position: absolute;
+#  background: #72ccad;
+#  width: 50px;
+#  height: 140px;
+#  right: -30px;
+#  bottom: 0;
+#  box-shadow: -10px 50px 0px #72ccad, -20px 70px 0px #72ccad,
+#    -30px 80px 0px #72ccad, -40px 90px 0px #72ccad, -60px 100px 0px #72ccad,
+#    -110px 110px 0px #72ccad;
+#  /*用陰影仿出一格一格的效果*/
+#}
 
-/*冰層透光處-仿像素畫效果*/
-.g3 {
-  position: absolute;
-  background: #c6feeb;
-  width: 180px;
-  height: 20px;
-  top: 40px;
-  box-shadow: -80px 10px 0px #c6feeb, -130px 20px 0px #c6feeb,
-    -150px 30px 0px #c6feeb, -160px 40px 0px #c6feeb, -170px 50px 0px #c6feeb;
-  /*用陰影仿出一格一格的效果*/
-}
+#/*冰層透光處-仿像素畫效果*/
+#.g3 {
+#  position: absolute;
+#  background: #c6feeb;
+#  width: 180px;
+#  height: 20px;
+#  top: 40px;
+#  box-shadow: -80px 10px 0px #c6feeb, -130px 20px 0px #c6feeb,
+#    -150px 30px 0px #c6feeb, -160px 40px 0px #c6feeb, -170px 50px 0px #c6feeb;
+#  /*用陰影仿出一格一格的效果*/
+#}
 
 /*------------群山------------*/
 
@@ -1792,7 +1792,7 @@ body {
     opacity: 1;
   }
   100% {
-    transform: translatey(600px);
+    transform: translatey(1250px);
   }
 }
 
