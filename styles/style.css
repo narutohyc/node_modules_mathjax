@@ -465,7 +465,9 @@
 	position: relative;
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 20px 15px 40px 15px
+	padding: 20px 15px 40px 15px;
+	# narutohyc 自定义背景色
+	background-color: #edfbf921;
 }
 
 .page-inner .btn-group .btn {
