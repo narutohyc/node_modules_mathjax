@@ -75,6 +75,12 @@ def parse_ht(html_path: str):
     soup = BeautifulSoup(open(html_path, 'r', encoding='utf-8)'), 'lxml')  # html.parser是解析器，也可是lxml
     # 对于无标题的文件, 直接返回不做处理
     if not soup.find('div', id="anchor-navigation-ex-navbar"):
+        # 更新原始的html文件
+        with open(html_path, "w", encoding='utf-8') as file:
+            html_str = str(soup)
+            find_idx = html_str.find('<body>')+len('<body>')
+            html_str = f"{html_str[:find_idx]}{gen_snow_div()}{html_str[find_idx:]}"
+            file.write(html_str)
         return
 
     # 查找所有的右边悬浮导航栏列表对象
