@@ -1141,7 +1141,7 @@ body {
 /*如要轉出codepen外的網站，請附上作者名稱，以及這裡的網址，感謝配合 :) */
 
 body {
-  background: #62a2a0f5;
+  background: #cfe2e2f5;
   margin: 0;
   /*背景填滿無邊界*/
   overflow: hidden;
@@ -1183,8 +1183,9 @@ body {
   position: absolute;
   background: #d8eaec99;;
   width: 100%;
-  height: 180px;
+  height: 300px;
   bottom: 0;
+  margin-bottom: -120px;
 }
 
 /*冰面*/
