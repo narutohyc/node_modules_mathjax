@@ -16,7 +16,7 @@ from typing import List
 
 from bs4 import BeautifulSoup
 
-js_path = r".\chapters\res\patch\gitbook"
+js_path = r"./chapters/res/patch/gitbook"
 
 
 def parse_idx(num_list: List[int]):
